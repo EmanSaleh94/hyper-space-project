@@ -10,9 +10,6 @@ import Modal from "./components/Modal";
 export default function Home() {
   return (
     <main className="h-screen relative flex justify-center items-center" >
-      {/* <WelcomePage/> */}
-      {/* <HomePage/> */}
-      {/* <Btns name='Discover Me!' path='/google'/> */}
       <Modal/>
       <Btns name="Let's Move On" path='/google'/>
       
