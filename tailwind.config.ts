@@ -7,6 +7,15 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors:{
+      'special-yellow':'#EDFC20',
+      'hot-pink':'#F175D8',
+    },
+    fontFamily:{
+      'MonumentExtended':['MonumentExtended'],
+      'GTAmerica':['GTAmerica']
+
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -15,6 +24,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui'),],
 };
 export default config;
