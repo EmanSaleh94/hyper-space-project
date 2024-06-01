@@ -1,9 +1,6 @@
-import Image from "next/image";
-import WelcomePage from  './home/page';
-import HomePage from "./newfinal/page";
-import NewHome from "./home/page";
 import Btns from "./components/Btn";
 import Modal from "./components/Modal";
+import NewHome from "./home/page";
 
 
 
