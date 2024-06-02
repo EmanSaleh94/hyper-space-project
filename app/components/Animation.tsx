@@ -10,7 +10,7 @@ const Animation = () => {
     <>
       <motion.div className=" h-1/2 flex justify-center items-center">
         <motion.div
-          className="w-80 h-80  max-sm:w-44 max-sm:h-44  bg-white text-center flex items-center"
+          className="w-80 h-80  max-sm:w-60 max-sm:h-60 bg-white text-center flex items-center"
           animate={{
             scale: [1, 2, 2, 1, 1],
             rotate: [0, 0, 180, 180, 0],
@@ -29,7 +29,7 @@ const Animation = () => {
               hidden: { opacity: 0 },
               show: { opacity: 1 },
             }}
-            className=" w-96 font-GTAmerica text-black  max-md:text-md text-lg  flex justify-content flex-col items-center"
+            className=" font-GTAmerica text-black  max-md:text-md text-lg  flex justify-content flex-col items-center"
             transition={{
               delay: 2,
               ease: "easeInOut",
