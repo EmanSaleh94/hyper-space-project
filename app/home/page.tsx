@@ -11,6 +11,7 @@ const NewHome = () => {
       <Image
       alt="Mountains"
       src={square}
+      priority
       
       quality={100}
       fill
