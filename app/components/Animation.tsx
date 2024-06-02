@@ -39,7 +39,7 @@ const Animation = () => {
             }}
           >
             <p>Social Contacts</p>
-            <div className="socialLinks flex items-center justify-around mt-10 w-3/4   ">
+            <div className="socialLinks flex items-center justify-around mt-10 w-3/4">
               {socialData.map((ele:any, index:any) => (
                 <SocialIcons
                   key={index}

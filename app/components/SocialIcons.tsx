@@ -6,9 +6,8 @@ import Link from "next/link";
 const SocialIcons = (props:any) => {
     console.log(props,'prop')
   return (
-   
-        <Link href={props.path} target='blank'>
-                <Image src={props.iconSvg} alt="img" className="w-full animate-bounce" />
+        <Link href={props.path} target='blank' className='flex justify-around w-full'>
+            <Image src={props.iconSvg} alt="img" className=" w-3/4 animate-bounce" />
          </Link>
  
   )
