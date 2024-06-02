@@ -1,7 +1,7 @@
 import github from "../../public/github.svg";
 import gmail from "../../public/gmail.svg";
 import linkedin from "../../public/linkedin.svg";
-import gmailPng from "../../public/gmail.png";
+import gmailPng from "../../public/gmail1024.png";
 import linkedinPng from "../../public/linkedin.png";
 import githubPng from "../../public/github1024.png";
 
@@ -13,6 +13,7 @@ export const socialData = [
     {
       path: `https://github.com/EmanSaleh94 ` ,
       iconSvg: githubPng,
+      widthStyle: 'w-full'
     },
     {
       path: `mailto:eman.s.ibrahim94@gmail.com`,

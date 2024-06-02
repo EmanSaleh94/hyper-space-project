@@ -45,6 +45,7 @@ const Animation = () => {
                   key={index}
                   path={ele.path}
                   iconSvg={ele.iconSvg}
+                  widthStyle={ele.widthStyle}
                 />
               ))}
             </div>
