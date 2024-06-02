@@ -1,4 +1,4 @@
-import github from "../../public/gitHub.svg";
+import github from "../../public/github.svg";
 import gmail from "../../public/gmail.svg";
 import linkedin from "../../public/linkedin.svg";
 
