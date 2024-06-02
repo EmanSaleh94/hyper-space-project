@@ -13,7 +13,7 @@
 *{
   cursor: url('../public/mouse-cursor.png'), auto;
 }
-.btn:hover{
+.btn:hover, span:hover, a:hover {
   cursor: url('../public/touch.png'),auto;
   
   
