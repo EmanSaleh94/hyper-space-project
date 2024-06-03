@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import loopImage from "../../public/loopimage.gif";
 import square from "../../public/square.gif";
-import Btns from "../components/Btn";
+
 
 
 const NewHome = () => {
@@ -12,7 +11,6 @@ const NewHome = () => {
       alt="Mountains"
       src={square}
       priority
-      
       quality={100}
       fill
       sizes="100vw"

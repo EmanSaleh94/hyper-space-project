@@ -5,7 +5,6 @@ const Modal = () => {
     <>
       <label
         htmlFor="my_modal_7"
-        
         className="btn gradi  font-MonumentExtended btn-lg z-10"
       >
         Discover Me!
@@ -17,7 +16,6 @@ const Modal = () => {
           <p className="py-4">I&apos;m Eman <span>&#x1F467;</span> <br/> Frontend Developer <br/> <br/> You can reach me On: Eman.s.ibrahim94@gmail.com  </p>
         </div>
         <label className="modal-backdrop" htmlFor="my_modal_7">Close</label>
-
       </div>
     </>
   );

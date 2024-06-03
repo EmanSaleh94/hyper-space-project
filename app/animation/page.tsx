@@ -9,7 +9,6 @@ const AnimationPage = () => {
       <div className="gradi w-screen h-screen flex justify-center items-center">
         <Animation />
         <Btns path='/' name='Go Home' btnPosition=' bottom-5 left-5'  />
-        
       </div>
     </>
   );
